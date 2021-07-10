@@ -31,27 +31,27 @@ number = Array.from(number);
   }  
  if (confirmNumber) {
     confirmLowercase = confirm("Will this contain Lowercase letters?");
-    arrayEmpty = arrayEmpty.contat(number);
+    arrayEmpty = arrayEmpty.concat(number);
 }
  else {
     confirmLowercase = confirm("Will this contain Lowercase letters?");
  }   
  if (confirmLowercase){
     confirmUppercase = confirm("Will this contain Uppercase letters?");
-    array = arrayEmpty.contat(lowerCase);
+    arrayEmpty = arrayEmpty.concat(lowerCase);
  }    
  else  {   
     confirmUppercase = confirm("Will this contain Uppercase letters?");
  }    
  if(confirmUppercase) {
     confirmspecial = confirm("Will this contain special characters?");
-    array = arrayEmpty.contat(upperCase);
+    arrayEmpty = arrayEmpty.concat(upperCase);
  }   
  else {
     confirmspecial = confirm("Will this contain special characters?"); 
  }   
  if (confirmspecial) {
-    array = arrayEmpty.contat(special);
+    arrayEmpty = arrayEmpty.concat(special);
  }  
  
   
@@ -63,8 +63,8 @@ number = Array.from(number);
   
  function generatePassword () {
   for (var i = 0; i < generatePassword; i++) {
-    var choices = array[Math.floor(Math.random() * array.length)];
-    password.push(choices);
+    var password = array[Math.floor(Math.random() * array.arrayEmpty)];
+    password.push(password);
   }  
   };  
 }
